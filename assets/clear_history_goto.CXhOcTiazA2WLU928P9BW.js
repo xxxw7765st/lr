@@ -1,0 +1,1 @@
+function e(e=`/`){history.replaceState(null,``,e);try{window.history.go(1-window.history.length)}catch{}try{let t=window.history.length;for(let n=1;n<t;n++)window.history.go(-1),window.history.replaceState(null,``,e)}catch{}window.history.pushState(null,``,e),window.location.href=e}export{e as t};

@@ -1,0 +1,33 @@
+[[headers]]
+for = "/static/*"
+[headers.values]
+Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+for = "/assets/*"
+[headers.values]
+Cache-Control = "public, max-age=2592000, immutable"
+
+[[headers]]
+for = "/index.html"
+[headers.values]
+Cache-Control = "no-cache"
+X-UA-Compatible = "IE=edge"
+
+[[redirects]]
+from = "/umami-tracker.js"
+to = "https://cloud.umami.is/script.js"
+status = 200
+force = true
+[[redirects]]
+from = "/umami-api/api/send"
+to = "https://api-gateway.umami.dev/api/send"
+status = 200
+force = true
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+# force = true
+exclude = { paths = ["/assets/*", "/static/*", "/favicon.ico", "/robots.txt"] }

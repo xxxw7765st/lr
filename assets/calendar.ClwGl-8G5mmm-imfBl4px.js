@@ -1,0 +1,1 @@
+var e=`/assets/calendar.01K9wQTc_61zaw2r-WV0j.webp`;export{e as t};

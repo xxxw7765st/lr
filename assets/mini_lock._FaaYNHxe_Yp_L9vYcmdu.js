@@ -1,0 +1,1 @@
+import{p as e,vt as t}from"./vue-core.pXvEpkFbBugaeRd0NdsdF.js";var n=e(`mini_lock_pswd`,()=>{let e=t(``),n=t(0);return{password:e,count_failure:n,has_password:()=>e.value.length!==0,set_password:t=>{t.length===0&&(e.value=``),e.value=t},check_password:t=>{let r=t===e.value;return r?n.value&&=0:n.value++,r}}},{persist:!0});export{n as t};

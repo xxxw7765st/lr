@@ -1,0 +1,1 @@
+import{r as e}from"./lodash-es.szw6zo6FMBPizUvKo-f_V.js";var t=375,n=600;function r(r){if(r===0)return r;let i=e(r*100/t,3),a=e(r*n/t,3);return`${r>0?`min`:`max`}(${i}vw, ${a}px)`}export{r as t};
