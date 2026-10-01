@@ -1,0 +1,1 @@
+function e(e){return new Promise(t=>{setTimeout(t,e)})}function t(e,t=1e3){let n=null,r,i={called_fn:!1,finish(e){if(n)clearTimeout(n),n=null;else return e(r)}};return n=setTimeout(()=>{n&&(clearTimeout(n),n=null,r=e(),i.called_fn=!0)},t),i}export{t as n,e as t};

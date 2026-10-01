@@ -1,0 +1,1 @@
+import{St as e,_t as t,gt as n,wt as r}from"./vue-core.BwXZ9RXwUTylf5RfdwQ9k.js";import{d as i}from"./lodash-es.CUrdj3yfmnFG21epyvxlZ.js";function a(a){let o=t(a)?r(a):a,s=n(o)?e(o):o;try{return structuredClone(s)}catch{return i(s)}}export{a as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./request.DlxxrH7FM-vpOQs7ZfxYL.js";function t(t){return e.get(`/blog/blogs/`,{params:t})}function n(t){return e.post(`/blog/blogs/`,{...t,tags:t.tags||[],group:t.group||`默认分组`})}function r(t){return e.get(`/blog/blogs/${t}/`)}function i(t,n){return e.put(`/blog/blogs/${t}/`,{...n,tags:n.tags||[],group:n.group||`默认分组`})}export{i,r as n,t as r,n as t};
